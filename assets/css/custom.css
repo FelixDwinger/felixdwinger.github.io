@@ -1,0 +1,84 @@
+/* Optional debug (remove later if you want) */
+body {
+  outline: 5px solid red !important;
+}
+
+/* Container shape */
+img.avatar {
+  width: 160px !important;
+  height: 200px !important;
+
+  border-radius: 0 !important;
+
+  object-fit: cover !important;
+  object-position: 50% 10% !important;
+}
+
+/* 1. Break the square container constraint */
+.avatar-wrapper {
+  width: 160px !important;
+  height: 200px !important;   /* makes it portrait */
+}
+
+/* 2. Stop forced square cropping */
+.avatar-wrapper img.avatar {
+  width: 100% !important;
+  height: 100% !important;
+
+  object-fit: cover !important;
+  object-position: 50% 10% !important;
+
+  border-radius: 0 !important;
+}
+
+h2.font-bold.tracking-tight {
+  display: none !important;
+}
+
+/* Remove ONLY the primary-colored icon badge in section headers */
+div.flex.items-center.gap-4.mb-8 > div.flex-shrink-0.w-12.h-12 {
+  display: none !important;
+}
+
+/* Remove header spacing above biography */
+.flex.items-center.gap-4.mb-8 {
+  display: none !important;
+}
+
+/* Hide page title */
+h1[data-pagefind-meta="title"] {
+  display: none !important;
+}
+
+/* Hide reading time */
+span.mx-1 {
+  display: none !important;
+}
+
+/* Optional spacing fix */
+main {
+  padding-top: 1rem;
+}
+
+.prose {
+  font-size: 0.9rem !important;
+  line-height: 1.55 !important;
+}
+
+.prose h1 {
+  font-size: 1.4rem !important;
+}
+
+.prose h2 {
+  font-size: 1.15rem !important;
+}
+
+.prose h3 {
+  font-size: 1rem !important;
+}
+
+.prose h3 {
+  background: rgba(59, 130, 246, 0.06);
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+}

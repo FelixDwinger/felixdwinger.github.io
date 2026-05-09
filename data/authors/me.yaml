@@ -1,0 +1,33 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Felix Dwinger
+  given: Felix
+  family: Dwinger
+  alternate: ''  # Example: 王伟
+  pronunciation: ''  # Example: Wáng Wěi
+bio: | 
+  Welcome!
+  
+  I am a Research Associate and former Postdoctoral Fellow at the [Institute of Advanced Study in Toulouse](https://www.iast.fr/) (IAST), [Toulouse School of Economics](https://www.tse-fr.eu/) (TSE), France. I hold a Ph.D. in Political Science from the [University of Gothenburg](https://www.gu.se/en/political-science), Sweden. I was a Visiting Assistant Researcher at [Yale University](https://politicalscience.yale.edu/) and a Guest Doctoral Researcher at the [University of Konstanz](https://www.polver.uni-konstanz.de/en/), Germany.
+
+  I examine from a comparative perspective why autocracies in the 21<sup>st</sup> century are so resilient but democracies so fragile, what this means for development, and what safeguards democracy. Elite political dynamics usually feature prominently in my research that often intersects with legislative, party, and identity politics. Methodologically, I specialize in causal identification, text-as-data including AI prompting, geospatial analysis, and game theory.
+
+  I am the lead founder and inaugural leader of the [IAST Political Economy](https://www.iast.fr/political-economy) research team.
+
+
+affiliations:
+  - name: Toulouse School of Economics
+    url: https://www.tse-fr.eu/
+
+links:
+  - icon: at-symbol
+    url: mailto:felix.dwinger@iast.fr
+    label: E-mail Me
+  - icon: brands/bluesky
+    url: https://bsky.app/profile/dwingerfelix.bsky.social
+  - icon: brands/github
+    url: https://github.com/FelixDwinger
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0001-7774-5586
